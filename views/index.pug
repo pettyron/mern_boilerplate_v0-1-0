@@ -1,0 +1,10 @@
+doctype
+html
+    head
+        title= `${title ||'Welcome'} | ${h.siteName}`
+        link(rel='stylesheet' href='/dist/main.css')
+        //- link(rel="shortcut icon" type="image/png" href="/images/icons/shortcut.png")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+            
+    body
+        script(src="/dist/App.bundle.js")
