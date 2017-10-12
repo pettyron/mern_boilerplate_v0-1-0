@@ -34,12 +34,6 @@ const styles = {
     use: ExtractTextPlugin.extract(['css-loader?sourceMap', postcss, 'sass-loader?sourceMap'])
 };
 
-const uglify = new webpack.optimize.UglifyJsPlugin({
-    compress: {
-        warnings: false
-    }
-});
-
 const config = {
     entry: {
         app: './public/scripts/app.js'

@@ -8,7 +8,7 @@
   "description": "Boilerplate for building NodeJS apps/sites",
   "main": "app.js",
   "scripts": {
-    "watch": "nodemon ./start.js --ext .pug --ignore public/",
+    "watch": "nodemon ./start.js --ignore public/",
     "start": "node ./start.js",
     "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
     "assets": "webpack -w  --display-max-modules 0"

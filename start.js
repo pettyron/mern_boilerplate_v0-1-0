@@ -20,6 +20,7 @@ mongoose.connection.on('error', (err) => {
 });
 
 // import models
+require ('./models/Stock');
 
 // start the app
 const app = require('./app');
