@@ -5,6 +5,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
+// TODO Configure Webpack for Development and Production Environments
+// TODO Configure Webpack with code splitting to deal with larger library sets i.e. React|Angular etc.
+
 const javascript = {
     test: /\.(jsx?)$/,
     exclude: '/node_modules/',
